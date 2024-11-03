@@ -97,4 +97,18 @@ a {
 .texto-section {
     color: white;
     padding-bottom: 150px;
+    padding-left: 50px;
 }
+
+@media (max-width: 768px) {
+    .dropdown {
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    .menu-hamburguesa{
+        display: none;
+    }
+}
+
