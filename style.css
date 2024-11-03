@@ -30,6 +30,15 @@ a {
     padding: 25px 50px;
     flex-wrap: wrap;
 }
+.menu {
+    font-size: 18px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 45px;
+    justify-content: center;
+}
 
 .logo{
     font-size: 25px;
@@ -41,15 +50,6 @@ a {
     color:pink;
 }
 
-.menu {
-    font-size: 18px;
-    gap: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-right: 45px;
-    justify-content: center;
-}
 
 .menu a{
     padding:10px;
@@ -69,10 +69,6 @@ a {
 .dropdown {
     position: relative;
     display:inline-block;
-}
-
-.dropdown:hover{
-    color: pink;
 }
 
 .dropdown-content{
@@ -105,10 +101,15 @@ a {
         display: none;
     }
 }
+.menu-hamburguesa{
+
+    position: absolute;
+}
 
 @media (min-width: 769px){
     .menu-hamburguesa{
         display: none;
     }
 }
+
 
